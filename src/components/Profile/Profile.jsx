@@ -12,6 +12,7 @@ import {
   UserStatsQuantity,
 } from './Profile.styled';
 
+
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <UserCard>

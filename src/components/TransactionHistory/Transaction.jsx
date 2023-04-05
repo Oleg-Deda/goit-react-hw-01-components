@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { Row } from './TransactionHistory.styled';
 import { TableCell } from './Transaction.styled';
 
+
 export const Transaction = ({ type, amount, currency }) => (
   <Row>
     <TableCell>{type}</TableCell>

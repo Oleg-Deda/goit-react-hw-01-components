@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { StatsItem } from '../StatsItem/StatsItem';
 import { StatsData } from './Statslist.styled';
 
+
 export const StatsList = ({ stats }) => {
   return (
     <StatsData className="stat-list">

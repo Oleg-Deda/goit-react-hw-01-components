@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import {StatsList} from '../Statslist/Statslist'
 import {StatsSection, StatsTitle} from './Statistics.styled'
 
+
 export const Statistics = ({ title, stats }) => {
   return (
     <StatsSection>
